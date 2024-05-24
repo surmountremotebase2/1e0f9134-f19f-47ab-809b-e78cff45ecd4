@@ -1,1 +1,1 @@
-{"allocations": {"MSFT": 0, "GOOG": 0, "META": 0}, "frequency": 30, "name": "", "period": "days"}
+{"allocations": {"MSFT": 50, "GOOG": 30, "META": 20}, "frequency": 30, "name": "", "period": "days"}
