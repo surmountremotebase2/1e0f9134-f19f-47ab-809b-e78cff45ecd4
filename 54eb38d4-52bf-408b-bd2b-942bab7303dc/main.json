@@ -1,1 +1,1 @@
-{"interval": "", "assets": ["MSFT", "AMZN"], "strategy": []}
+{"groups": {}, "interval": "1day", "assets": ["MSFT", "AMZN"], "strategy": [{"type": "IF", "conditions": [{"type": "BINARY", "first": {"name": "MOMENTUM", "args": {"ticker": "MSFT", "length": "5"}, "advanced": {}}, "second": {"name": "SOUT", "args": {"ticker": "AMZN"}}, "comp": ">", "operator": ""}], "if_action": {"type": "ACTION", "steps": [{"action": "allocation", "asset": "MSFT", "amount": "80"}]}, "else_action": {"type": "ACTION", "steps": [{"action": "allocation", "asset": "AMZN", "amount": "20"}]}}]}
